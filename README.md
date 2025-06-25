@@ -8,7 +8,6 @@
 <br>
 <p>Laravel / Sail </p>
 localhost/ <br>
-localhost/search <br>
 
 <br>
 # osu-stats-app
