@@ -1,7 +1,7 @@
 <?php
 
-use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\OsuController;
 
-Route::get('/', function () {
-    return view('welcome');
-});
+Route::get('/', [OsuController::class, 'index']);
+Route::post('/search', [OsuController::class, 'search'])->name('osu.search');
+
