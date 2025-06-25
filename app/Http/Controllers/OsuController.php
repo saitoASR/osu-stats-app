@@ -24,7 +24,7 @@ class OsuController extends Controller
             'scope' => 'public',
         ]);
 
-        $accessToken = $tokenResponse['access_token'];
+        $accessToken = $tokenResponse['access_token']; // access_tokenを取り出す
 
         // 2. ユーザーデータ取得
         $userResponse = Http::withToken($accessToken)
