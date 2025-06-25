@@ -1,9 +1,9 @@
 <h1>osu!統計表示アプリ</h1>
-<p>osu!というリズムゲームで提供されているAPIを使用してユーザーの統計を表示するアプリ。
+<p>osu!というリズムゲームで提供されているAPIを使用してユーザーの統計を表示するアプリ。<br>
 UI面に力入れてみたりしてます。</p>
 検索例: <br>
 <li>imNotDelta</li>
-<li>Ugogo </li>
+<li>mrekk </li>
 
 <br>
 <p>Laravel / Sail </p>
